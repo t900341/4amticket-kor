@@ -12,9 +12,9 @@ services:
 script:
   - docker build -t t900341/project-korea ./
 
-  - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
+#  - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
 
-  - docker push t900341/project-korea
+#  - docker push t900341/project-korea
 
 #deploy:
 #  provider: elasticbeanstalks
