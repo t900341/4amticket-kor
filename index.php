@@ -8,7 +8,7 @@
       <!--Home-->
       <section id="home">
         <div class="container">
-          <h5>AWS와 함께</h5>
+          <h5>AWS와 함께면</h5>
           <h1><span>More Faster</span> High Availability</h1>
           <p>이제 당신의 손가락만 빠르면 된다</p>
           <a href="shop.php"><button class="buy-btn">바로가기</button></a> 
