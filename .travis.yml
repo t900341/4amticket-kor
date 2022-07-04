@@ -18,7 +18,7 @@ deploy:
   region: "ap-northeast-2"
   app: "4amticket-kor"                    
   env: "4amticketkor-env"               
-  bucket_name: elasticbeanstalk-ap-northeast-2-200476763859   
+  bucket_name: elasticbeanstalk-ap-northeast-2-929316178732
   skip_cleanup: true
   bucket_path: "4amticket-kor"            
   on:
