@@ -1,10 +1,7 @@
 language: generic
 
 
-
 sudo: required
-
-
 
 services:
   - docker
@@ -16,20 +13,20 @@ script:
 
   - docker push t900341/4amticket-korea
 
-deploy:
-  provider: elasticbeanstalks
-  region: "ap-northeast-2"
-  app: "4amticket-kor"                    
-  env: "4amticketkor-env"               
-  bucket_name: elasticbeanstalk-ap-northeast-2-200476763859   
-  skip_cleanup: true
-  bucket_path: "4amticket-kor"            
-  on:
-    branch: master
+#deploy:
+#  provider: elasticbeanstalks
+#  region: "ap-northeast-2"
+#  app: "4amticket-kor"                    
+#  env: "4amticketkor-env"               
+#  bucket_name: elasticbeanstalk-ap-northeast-2-200476763859   
+#  skip_cleanup: true
+#  bucket_path: "4amticket-kor"            
+#  on:
+#    branch: master
   
 
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRET_ACCESS_KEY
 
 
 
